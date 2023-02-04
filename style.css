@@ -1,0 +1,74 @@
+body {
+  /*background-color: lightblue;  --  old background */ 
+  background: linear-gradient(to bottom, blanchedalmond, mediumpurple);
+  height: 150vh;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+}
+
+h1 {
+  border-color: rebeccapurple;
+  border-style: dotted;
+  border-width: 8px;
+  /* add something to make it fit the text  -- done, in body css*/
+  color: mediumblue;
+  font-family: monospace;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-family: monospace;
+  color: blue;
+  text-decoration: underline ;
+}
+
+li {
+  font-family: monospace;
+  font-size: 20px;
+  color: mediumblue;
+  text-align: left;
+}
+
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  color: rebeccapurple;
+  text-align: left;
+}
+
+hr {
+  color: darkblue;
+  height: 3px;
+  border-width: 0;
+  background-color: darkblue;
+}
+
+/* custom classes go here */
+
+.footer-text {
+  font-family: monospace;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkviolet;
+  color: darkviolet;
+  text-align: center;
+}
