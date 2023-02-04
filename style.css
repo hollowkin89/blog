@@ -13,7 +13,7 @@ h1 {
   border-style: dotted;
   border-width: 8px;
   /* add something to make it fit the text  -- done, in body css*/
-  color: mediumblue;
+  color: steelblue;
   font-family: monospace;
   text-align: center;
 }
